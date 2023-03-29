@@ -1,0 +1,15 @@
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\bin\Debug\net7.0\SocialMedia.exe
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\bin\Debug\net7.0\SocialMedia.deps.json
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\bin\Debug\net7.0\SocialMedia.runtimeconfig.json
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\bin\Debug\net7.0\SocialMedia.dll
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\bin\Debug\net7.0\SocialMedia.pdb
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.csproj.AssemblyReference.cache
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.AssemblyInfoInputs.cache
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.AssemblyInfo.cs
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.csproj.CoreCompileInputs.cache
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.dll
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\refint\SocialMedia.dll
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.pdb
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\SocialMedia.genruntimeconfig.cache
+C:\Users\erwan\Documents\GitHub\social-media\SocialMedia\obj\Debug\net7.0\ref\SocialMedia.dll
