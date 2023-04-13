@@ -76,6 +76,8 @@
             }
             else if (input == "f")
             {
+                Console.Clear();
+                Console.WriteLine("Her er en list eover andre bruker:");
                 foreach (var user in users)
                 {
                     Console.WriteLine(user.ScreenName);
