@@ -2,24 +2,7 @@
 {
     internal class FuckfriendFace
     {
-        public class User
-        {
-            public string Name { get; private set; }
-            public string ScreenName { get; private set; }
-            public string[] Friends { get; private set; }
-            public string Location { get; private set; }
-            public User(string name, string screeenname, string location)
-            {
-                Name = name;
-                ScreenName = screeenname;
-                Location = location;
-            }
 
-        }
-        public class FriendList
-        {
-            public List<User> Friends { get; private set; }
-        }
         public static void Main(string[] args)
         {
             var erewan = new User("Erwan", "Music Rioulu", "Fox Falls");
@@ -60,7 +43,7 @@
             var freshBlood = new User(desiredNameAnswer, realNameAnswer + "r", "Void");
             List<String> friends = new List<String>();
             Console.ForegroundColor = ConsoleColor.White;
-            MainPage(realNameAnswer, desiredNameAnswer, friends);
+            MainPage(realNameAnswer, desiredNameAnswer, users);
 
 
         }
@@ -74,7 +57,7 @@
             Console.WriteLine();
         }
 
-        public static void MainPage(string realName, string desiredName, List<string> Friends)
+        public static void MainPage(string realName, string desiredName, List<User> users)
         {
             Console.WriteLine("Hva vil du gjøre? \n Se profilen din? (p) \n Se en liste over andre brukere? (f)");
             string input = Console.ReadLine();
@@ -86,12 +69,20 @@
                 Console.WriteLine($"Virkelig navn: {realName} \n Display: {desiredName} \n");
                 Console.WriteLine();
                 Console.WriteLine("Venneliste:");
-                foreach (var friend in Friends)
+                //foreach (var friend in Friendslist.Friends)
+                //{
+                //    Console.WriteLine(friend.Name);
+                //}
+            }
+            else if (input == "f")
+            {
+                foreach (var user in users)
                 {
-                    //Console.WriteLine(friend.Name);
+                    Console.WriteLine(user.ScreenName);
+                    Console.WriteLine(user.Location);
+                    Console.WriteLine();
                 }
             }
-            else if (input == "f") { }
             else
             {
                 int w = 1;
