@@ -16,6 +16,10 @@
             }
 
         }
+        public class FriendList
+        {
+            public List<User> Friends { get; private set; }
+        }
         public static void Main(string[] args)
         {
             var erewan = new User("Erwan", "Music Rioulu", "Fox Falls");
@@ -46,19 +50,56 @@
             Console.WriteLine($"Da sier vi det...{desiredNameAnswer}r? Sa jeg det rikitg? (y/n)");
             Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("...bra.", ConsoleColor.DarkRed);
+            Console.WriteLine("BRA!!");
             Console.WriteLine();
             Console.WriteLine("! !");
             Console.WriteLine(" _");
+            Console.WriteLine();
+            Console.WriteLine("Da setter vi opp profilen din da!");
+            Console.WriteLine("#######");
+            var freshBlood = new User(desiredNameAnswer, realNameAnswer + "r", "Void");
+            List<String> friends = new List<String>();
+            Console.ForegroundColor = ConsoleColor.White;
+            MainPage(realNameAnswer, desiredNameAnswer, friends);
+
+
         }
         public static void AddFriend()
         {
-            Console.WriteLine();
+            ;
         }
 
         public static void RemoveFriend()
         {
             Console.WriteLine();
+        }
+
+        public static void MainPage(string realName, string desiredName, List<string> Friends)
+        {
+            Console.WriteLine("Hva vil du gjøre? \n Se profilen din? (p) \n Se en liste over andre brukere? (f)");
+            string input = Console.ReadLine();
+            if (input == "p")
+            {
+                Console.Clear();
+                Console.WriteLine("Her er din profil");
+                Console.WriteLine();
+                Console.WriteLine($"Virkelig navn: {realName} \n Display: {desiredName} \n");
+                Console.WriteLine();
+                Console.WriteLine("Venneliste:");
+                foreach (var friend in Friends)
+                {
+                    //Console.WriteLine(friend.Name);
+                }
+            }
+            else if (input == "f") { }
+            else
+            {
+                int w = 1;
+                while (w > 0)
+                {
+                    Console.WriteLine("RUN! ", Console.ForegroundColor = ConsoleColor.DarkRed);
+                }
+            }
         }
     }
 }
